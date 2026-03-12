@@ -1,5 +1,7 @@
 ﻿# Screen Control for Ubuntu 24.04 LTS
 
+Current version: `v0.1.0`
+
 A lightweight screen automation helper for Ubuntu 24.04 LTS, designed to work with models that have native image understanding.
 
 This project provides:
@@ -30,14 +32,14 @@ Supported commands:
 - `xdotool`
 - `gnome-screenshot`
 - Python 3.10+
-- `pyautogui` (optional but recommended; script will fallback to `xdotool` when possible)
+- `pyautogui` (recommended; the script falls back to `xdotool` when possible)
 
 ## Install
 
 ```bash
 sudo apt update
 sudo apt install -y xdotool gnome-screenshot python3-pip
-python3 -m pip install pyautogui
+python3 -m pip install -r requirements.txt
 ```
 
 ## Usage
@@ -59,6 +61,10 @@ Each command prints a JSON result (`ok`, `type`, and action-specific fields) for
 - `README.md`: project overview and setup
 - `DISCLAIMER.md`: safety/legal disclaimers
 - `LICENSE`: MIT license
+- `CHANGELOG.md`: release history
+- `CONTRIBUTING.md`: contribution process
+- `CODE_OF_CONDUCT.md`: community behavior standard
+- `.github/workflows/ci.yml`: CI checks for push/PR
 
 ## Notes
 
