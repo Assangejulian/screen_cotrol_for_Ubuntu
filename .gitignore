@@ -3,3 +3,5 @@
 *.pyo
 *.pyd
 .DS_Store
+.tools/
+gh_windows_amd64.zip
