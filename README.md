@@ -65,9 +65,14 @@ Each command prints a JSON result (`ok`, `type`, and action-specific fields) for
 - `CONTRIBUTING.md`: contribution process
 - `CODE_OF_CONDUCT.md`: community behavior standard
 - `.github/workflows/ci.yml`: CI checks for push/PR
+- `CONTRIBUTORS.md`: contributor list
 
 ## Notes
 
 - Run this tool only in a trusted desktop session.
 - Test with non-critical windows/apps first.
 - `pyautogui` may fail in headless environments; fallback behavior depends on available desktop tooling.
+
+## Contributors
+
+- [@Assangejulian](https://github.com/Assangejulian)
